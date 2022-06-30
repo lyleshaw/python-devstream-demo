@@ -1,5 +1,5 @@
 fastapi==0.75.0
-numpy==1.22.3
+numpy==1.21.6
 opencv_python==4.5.5.64
 Pillow==9.0.1
 torch==1.11.0
