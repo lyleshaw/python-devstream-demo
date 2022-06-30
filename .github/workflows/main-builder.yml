@@ -21,8 +21,9 @@ jobs:
         python-version: ${{ matrix.python-version }}
         cache: 'pip'
     - name: Install dependencies
-      run: pip install -r requirements.txt
-      run: pip test
+      run: |
+        pip install -r requirements.txt
+        pip test
     - name: Test with pytest
       run: |
         pip install pytest
